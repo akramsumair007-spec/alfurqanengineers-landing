@@ -63,19 +63,19 @@
   "pages": {
     "home": {
       "title": "Government & Private Construction in Lahore",
-      "description": "Al Furqan Engineer's (Pvt) Ltd: 30+ years of government and private contracting in Lahore. Building, road, sewerage, electrical and maintenance works.",
+      "description": "Al Furqan Engineer's (Pvt) Ltd, Lahore: led by Muhammad Khalid and Muhammad Akram. Government and private construction with 30+ years of experience.",
       "eyebrow": "Lahore, Pakistan · Government Contractors",
       "heading": "Building trust.\nDelivering progress.",
       "intro": "30+ Years of Trusted Government & Private Contracting",
-      "body": "From the foundations of a building to the infrastructure of a city, we bring experience, care and accountability to every stage of construction."
+      "body": "Al Furqan Engineer's (Pvt) Ltd is led by Muhammad Khalid and Muhammad Akram, co-equal General Managers and shareholders. From the foundations of a building to the infrastructure of a city, we bring experience, care and accountability to every stage of construction."
     },
     "about": {
       "title": "About Us & Our Team",
-      "description": "Meet Al Furqan Engineer's (Pvt) Ltd, an established Lahore construction company with 30+ years of experience. Discover our values, leadership and team structure.",
+      "description": "Al Furqan Engineer's (Pvt) Ltd is led by Muhammad Khalid and Muhammad Akram, co-equal General Managers and shareholders. Based in Lahore, Pakistan, with 30+ years of construction experience.",
       "eyebrow": "The company",
       "heading": "Three decades.\nOne lasting commitment.",
       "intro": "30+ Years of Experience. A practical understanding of what it takes to build well.",
-      "body": "Al Furqan Engineer's (Pvt) Ltd is a Lahore-based construction and engineering contractor with over three decades of operation. Government contracting is at the heart of our work, alongside residential and commercial projects for private clients."
+      "body": "Al Furqan Engineer's (Pvt) Ltd is led by Muhammad Khalid and Muhammad Akram, co-equal General Managers and shareholders. Al Furqan Engineer's (Pvt) Ltd is a Lahore-based construction and engineering contractor with over three decades of operation. Government contracting is at the heart of our work, alongside residential and commercial projects for private clients."
     },
     "services": {
       "title": "Construction & Engineering Services",
@@ -95,11 +95,11 @@
     },
     "credentials": {
       "title": "Clients & Credentials",
-      "description": "Client and registration information for Al Furqan Engineer's (Pvt) Ltd. PEC, certifications and tax-registration details are awaiting confirmation.",
+      "description": "Al Furqan Engineer's (Pvt) Ltd — PEC Category C1 license, valid till December 2027. Government and private contractor in Lahore.",
       "eyebrow": "Confidence through clarity",
       "heading": "Accountability you\ncan build on.",
       "intro": "A professional approach to government departments, private developers and property owners.",
-      "body": "This section is reserved for approved client references and current registration documents. Placeholders below are not evidence of certification, endorsement or an active registration."
+      "body": "Our PEC license category and validity are listed below. For project enquiries and supporting documentation, please contact our Lahore office."
     },
     "contact": {
       "title": "Contact & Request a Quote",
@@ -152,7 +152,7 @@
     "processHeading": "A practical route to delivery.",
     "credentialsHeading": "Client reference area",
     "credentialNote": "Client logos and reference permissions will be added after approval. Names below are placeholders, not an endorsement.",
-    "registrationsHeading": "Registrations & documentation",
+    "registrationsHeading": "PEC registration & license",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
     "contactPlaceholderNote": "Send your project enquiry to alfurqaneng@yahoo.com or call our Lahore office. This form prepares an email draft; review and send it in your email app. It does not send or store your information automatically.",
@@ -393,19 +393,10 @@
   ],
   "credentials": [
     {
-      "title": "PEC registration",
-      "value": "[Registration number]",
-      "detail": "[Category / validity date]"
-    },
-    {
-      "title": "Certifications & licenses",
-      "value": "[Approved certifications]",
-      "detail": "[License numbers / validity dates]"
-    },
-    {
-      "title": "Tax registrations",
-      "value": "[NTN / tax registration]",
-      "detail": "[Registration details]"
+      "title": "Pakistan Engineering Council (PEC)",
+      "value": "PEC Category C1",
+      "detail": "License valid till December 2027",
+      "status": "PEC license"
     }
   ],
   "process": [

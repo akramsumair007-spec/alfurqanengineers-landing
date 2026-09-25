@@ -14,3 +14,5 @@
 /* Three confirmed company statistics, balanced at every width. */
 .stats{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:760px){.stats{grid-template-columns:1fr;text-align:center;gap:22px}.stats>div{padding:0 0 20px!important;border:0;border-bottom:1px solid #dce3ed}.stats>div:last-child{padding-bottom:0!important;border:0}}
+
+.credential-card:only-child{grid-column:1/-1;max-width:760px;width:100%}
