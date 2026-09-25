@@ -8,8 +8,8 @@
     "url": "https://alfurqanengineers.com",
     "phone": "+92 42 37576169",
     "phoneHref": "tel:+924237576169",
-    "email": "info@yourdomain.com",
-    "emailIsPlaceholder": true,
+    "email": "alfurqaneng@yahoo.com",
+    "emailIsPlaceholder": false,
     "whatsapp": "",
     "hours": "[Working hours — to be confirmed]",
     "address": "Khawaja Arcade, Suite No 17, 1st Floor, Wahdat Rd, Mauza Ichra, Muslim Town, Lahore, Punjab, Rehmanpura Colony, 54700, Pakistan",
@@ -117,19 +117,14 @@
       "placeholder": false
     },
     {
-      "value": "XX+",
+      "value": "1056+",
       "label": "Projects completed",
-      "placeholder": true
+      "placeholder": false
     },
     {
-      "value": "XX+",
+      "value": "7+",
       "label": "Government departments served",
-      "placeholder": true
-    },
-    {
-      "value": "XX+",
-      "label": "Skilled professionals",
-      "placeholder": true
+      "placeholder": false
     }
   ],
   "copy": {
@@ -160,7 +155,7 @@
     "registrationsHeading": "Registrations & documentation",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
-    "contactPlaceholderNote": "The email address and WhatsApp number are placeholders. Please call the office for a live enquiry. This form prepares a draft; it does not send or store your information.",
+    "contactPlaceholderNote": "Send your project enquiry to alfurqaneng@yahoo.com or call our Lahore office. This form prepares an email draft; review and send it in your email app. It does not send or store your information automatically.",
     "formButton": "Prepare email enquiry",
     "copyButton": "Copy enquiry",
     "formLabels": {
@@ -173,7 +168,7 @@
       "hint": "Location, type of work, approximate scope and intended timeline"
     },
     "draftReady": "Your enquiry draft is ready. Choose “Open email app” to continue; no message has been sent. The recipient is currently a placeholder — use the office phone for a live enquiry.",
-    "draftReadyLive": "Your email draft is ready. Review it in your email app and send when ready. No message has been sent automatically.",
+    "draftReadyLive": "Your email draft is ready for alfurqaneng@yahoo.com. Choose “Open email app”, review the draft and send when ready. No message has been sent automatically.",
     "copySuccess": "Enquiry copied. You can paste it into your email app.",
     "copyFailure": "Copy is unavailable in this browser. Select and copy the draft text below.",
     "whatsappPending": "WhatsApp number coming soon",
@@ -186,7 +181,7 @@
     "photoLabel": "Representative photo",
     "projectLabel": "Project overview",
     "officeHours": "Office hours",
-    "emailLabel": "Email · placeholder",
+    "emailLabel": "Email",
     "phoneLabel": "Call our office",
     "addressLabel": "Office address",
     "faqHeading": "Planning your next step?",
@@ -317,8 +312,7 @@
       "category": "Buildings",
       "description": "A residential and commercial project within the company portfolio.",
       "images": [
-        "building",
-        "construction"
+        "jubileeSite"
       ],
       "featured": true
     },
@@ -603,6 +597,14 @@
       "credit": "Al Furqan Engineer's · Company-supplied photo",
       "source": "",
       "generic": false
+    },
+    "jubileeSite": {
+      "url": "project-jubilee-heights.jpeg",
+      "alt": "Architectural rendering of Jubilee Heights in Jubilee Town, Lahore",
+      "credit": "Al Furqan Engineer's · Company-supplied rendering",
+      "source": "",
+      "generic": false,
+      "label": "Project rendering"
     }
   }
 }

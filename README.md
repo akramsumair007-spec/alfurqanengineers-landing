@@ -36,3 +36,5 @@ Each page has unique SEO metadata and GeneralContractor structured data, along w
 
 ## Company project photos (September 2026)
 Five supplied photos are hosted locally as project-*.jpg/webp/jpeg. The roads gallery contains both carpeting photos; the sports complex, LDA office and sewerage galleries use the corresponding supplied image. Jubilee Heights is in Jubilee Town, Lahore. Photo badges and captions distinguish company photos from remaining representative stock.
+
+Latest update: Jubilee Heights uses the company-supplied architectural rendering. Confirmed homepage figures: 1056+ projects and 7+ government departments. Email is alfurqaneng@yahoo.com; mailto enquiries now target this address. The crane image no longer has a logo overlay.
