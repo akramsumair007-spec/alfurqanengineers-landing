@@ -18,3 +18,52 @@
 .credential-card:only-child{grid-column:1/-1;max-width:760px;width:100%}
 
 .client-card{background:#fff;border:1px solid #dce3ef;text-align:center;padding:32px 20px;display:flex;align-items:center;justify-content:center;min-height:265px}.client-card a{display:block;width:100%}.client-card img{width:180px;height:120px;object-fit:contain;margin:0 auto 24px}.client-card strong{display:block;font-size:18px;color:var(--navy);line-height:1.35}.client-card p{font-size:13px;margin-top:9px}.client-card:hover{border-color:var(--primary)}
+
+/* Shared header: readable type and proportional brand at every viewport. */
+.topbar .wrap,.navigation.wrap{width:min(1480px,94%)}
+.topbar,.top-address,.phone{font-size:15px;font-weight:500;line-height:1.5}
+.topbar .wrap{padding:12px 0;gap:28px}
+.top-address{max-width:none;white-space:nowrap}
+.phone{flex-shrink:0;white-space:nowrap}
+.navigation{height:auto;min-height:124px;gap:28px;padding-block:18px}
+.brand{flex:0 0 432px}
+.full-logo{display:block;width:432px;height:auto}
+.mobile-logo,.mobile-brand{display:none}
+.navigation nav{gap:22px;font-size:17px;font-weight:600}
+.navigation nav>a:not(.button){padding:14px 0}
+.navigation nav a[aria-current]:after{bottom:4px;left:0;right:0;width:auto}
+.navigation .button{font-size:16px;font-weight:700;padding:14px 20px;gap:18px;white-space:nowrap}
+html{scroll-padding-top:142px}
+@media(min-width:1001px) and (max-width:1440px){
+ .navigation{flex-wrap:wrap;justify-content:center;gap:14px;padding-block:18px}
+ .brand{flex-basis:432px}
+ .navigation nav{flex-basis:100%;justify-content:center;gap:24px}
+ .topbar .wrap{gap:18px}
+ .top-address,.phone{font-size:14px}
+ html{scroll-padding-top:210px}
+}
+@media(max-width:1000px){
+ .topbar .wrap{flex-wrap:wrap;gap:6px 24px;justify-content:flex-start}
+ .top-address{white-space:normal;order:2;flex-basis:100%}
+ .phone{order:1}
+ .navigation{min-height:110px;padding-block:16px;flex-wrap:nowrap;justify-content:space-between}
+ .brand{flex:0 1 432px;min-width:0}
+ .full-logo{width:100%;height:auto}
+ .menu-toggle{flex-shrink:0}
+ .navigation nav{top:100%;font-size:17px;padding:20px 4%;gap:20px}
+ .navigation nav.open{display:flex;flex-direction:column;align-items:stretch;gap:6px}
+ .navigation nav>a:not(.button){align-self:flex-start;padding:12px 0}
+ .navigation nav .button{align-self:flex-start;margin-top:10px}
+ html{scroll-padding-top:126px}
+}
+@media(max-width:760px){
+ .topbar .wrap,.navigation.wrap{width:92%}
+ .topbar .wrap{padding:10px 0}
+ .top-address{max-width:none;font-size:14px;line-height:1.5}
+ .phone{font-size:15px}
+ .navigation{min-height:88px;gap:16px;padding-block:16px}
+ .brand{flex:0 1 360px;display:block}
+ .full-logo{display:block;width:100%;height:auto}
+ .mobile-logo,.mobile-brand{display:none}
+ html{scroll-padding-top:104px}
+}
