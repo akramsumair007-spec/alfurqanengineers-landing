@@ -367,8 +367,7 @@
       "category": "Electrical",
       "description": "Electrical repair and maintenance for buildings and facilities.",
       "images": [
-        "electrical",
-        "maintenance"
+        "electrical"
       ],
       "featured": false
     }
@@ -414,8 +413,8 @@
   "credentials": [
     {
       "title": "Pakistan Engineering Council (PEC)",
-      "value": "PEC Category C1",
-      "detail": "License valid till December 2027",
+      "value": "PEC Category C1 · License No. 1406",
+      "detail": "Valid until 30 June 2028",
       "status": "PEC license"
     }
   ],
@@ -554,11 +553,10 @@
       "generic": true
     },
     "electrical": {
-      "url": "https://images.pexels.com/photos/8961701/pexels-photo-8961701.jpeg?auto=compress&cs=tinysrgb&w=1000",
-      "alt": "Construction workers assessing conduits in a brick building; representative stock photograph",
-      "source": "https://www.pexels.com/photo/a-man-and-a-woman-wearing-goggles-holding-red-pipes-8961701/",
-      "credit": "Pexels",
-      "generic": true
+      "url": "project-electrical-maintenance.png",
+      "alt": "Electrical maintenance technician working on an electrical control panel",
+      "credit": "Company-supplied image",
+      "generic": false
     },
     "maintenance": {
       "url": "https://images.pexels.com/photos/8961701/pexels-photo-8961701.jpeg?auto=compress&cs=tinysrgb&w=1000",
