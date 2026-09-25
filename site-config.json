@@ -91,7 +91,7 @@
       "eyebrow": "Our project portfolio",
       "heading": "Work that serves\npeople and places.",
       "intro": "Buildings, public facilities and the infrastructure that connects them.",
-      "body": "Explore our project areas below. Named projects are supplied by the company; stock photographs illustrate the type of work while original project photography and detailed records are being prepared."
+      "body": "Explore our buildings, public facilities and infrastructure projects. View company-supplied site photographs in the project galleries; representative photographs are clearly marked where project images are not yet available."
     },
     "credentials": {
       "title": "Clients & Credentials",
@@ -143,8 +143,8 @@
     "homeAboutHeading": "An established name.\nA hands-on approach.",
     "homeAboutBody": "For over 30 years, Al Furqan Engineer's has served government and private clients with a focus on quality work, clear planning and lasting value.",
     "homeProjectsHeading": "A cross-section of our work.",
-    "projectNote": "Representative stock photography — not photographs of the named projects.",
-    "projectPending": "Project scope, completion date and original site photographs will be added after company approval.",
+    "projectNote": "Company-supplied photographs are shown where available. Images marked “Representative photo” illustrate the type of work.",
+    "projectPending": "Detailed project scope and completion dates will be added after company confirmation.",
     "ctaHeading": "Your next project.\nOur full attention.",
     "ctaBody": "Speak with our Lahore team about your construction, infrastructure or maintenance requirements.",
     "aboutProfileHeading": "Government Contractors.\nCommitted to quality.",
@@ -203,7 +203,8 @@
         "q": "Can I request project records and credentials?",
         "a": "Please contact the office to discuss the records relevant to your enquiry. Registration and certification details on this website are currently placeholders."
       }
-    ]
+    ],
+    "companyPhotoLabel": "Project photo"
   },
   "vision": "To be a leading and most trusted construction and engineering company in Pakistan, recognized for building durable, high-quality infrastructure that contributes to the growth and development of our communities.",
   "mission": "To deliver public and private projects of the highest standard, on time and within budget, through skilled professionals, quality materials, modern practices, strict safety compliance, and honest, transparent dealings with every client, building on our 30 years of experience.",
@@ -312,7 +313,7 @@
     {
       "id": "jubilee-heights",
       "title": "Jubilee Heights",
-      "location": "[Project location — to be confirmed]",
+      "location": "Jubilee Town, Lahore",
       "category": "Buildings",
       "description": "A residential and commercial project within the company portfolio.",
       "images": [
@@ -328,8 +329,7 @@
       "category": "Buildings",
       "description": "A public sports facility serving the Sabzazar community.",
       "images": [
-        "sports",
-        "construction"
+        "sportsSite"
       ],
       "featured": true
     },
@@ -340,8 +340,7 @@
       "category": "Maintenance & Repairs",
       "description": "Maintenance and repair works for an institutional office building.",
       "images": [
-        "maintenance",
-        "electrical"
+        "ldaOfficeSite"
       ],
       "featured": true
     },
@@ -352,8 +351,8 @@
       "category": "Roads & Asphalt",
       "description": "Road construction, asphalt surfacing and repair work for dependable access.",
       "images": [
-        "road",
-        "road2"
+        "roadSite",
+        "roadSite2"
       ],
       "featured": false
     },
@@ -364,8 +363,7 @@
       "category": "Sewerage",
       "description": "Pipeline and drainage infrastructure supporting essential services.",
       "images": [
-        "pipes",
-        "construction"
+        "sewerageSite"
       ],
       "featured": false
     },
@@ -570,6 +568,41 @@
       "source": "https://www.pexels.com/photo/artistic-frontage-of-a-building-2884867/",
       "credit": "Aa Dil / Pexels",
       "generic": true
+    },
+    "roadSite": {
+      "url": "project-road-carpeting-2.jpg",
+      "alt": "Road roller compacting freshly laid asphalt with the project crew",
+      "credit": "Al Furqan Engineer's · Company-supplied photo",
+      "source": "",
+      "generic": false
+    },
+    "roadSite2": {
+      "url": "project-road-carpeting.jpg",
+      "alt": "Fresh asphalt road surface with a roller in the distance",
+      "credit": "Al Furqan Engineer's · Company-supplied photo",
+      "source": "",
+      "generic": false
+    },
+    "ldaOfficeSite": {
+      "url": "project-lda-maintenance.jpg",
+      "alt": "Lahore Development Authority office building, Johar Town",
+      "credit": "Al Furqan Engineer's · Company-supplied photo",
+      "source": "",
+      "generic": false
+    },
+    "sportsSite": {
+      "url": "project-lda-sports.webp",
+      "alt": "Landscaped courtyard at LDA Sports Complex, Sabzazar, Lahore",
+      "credit": "Al Furqan Engineer's · Company-supplied photo",
+      "source": "",
+      "generic": false
+    },
+    "sewerageSite": {
+      "url": "project-sewerage.jpeg",
+      "alt": "Crew installing a sewerage pipeline inside a supported trench",
+      "credit": "Al Furqan Engineer's · Company-supplied photo",
+      "source": "",
+      "generic": false
     }
   }
 }

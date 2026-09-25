@@ -23,7 +23,7 @@
     opener=button;const content=document.querySelector('#dialog-content');content.replaceChildren();
     content.append(element('span',p.category,'category'));const title=element('h2',p.title);title.id='dialog-title';content.append(title,element('p',p.location));
     const gallery=element('div','','dialog-gallery');
-    p.images.forEach(key=>{const i=c.images[key];const figure=element('figure');const image=element('img');image.src=i.url;image.alt=i.alt;image.loading='lazy';image.width=900;image.height=600;const caption=element('figcaption',c.copy.photoLabel+' · ');const credit=element('a',i.credit);credit.href=i.source;credit.target='_blank';credit.rel='noopener noreferrer';caption.append(credit);figure.append(image,caption);gallery.append(figure);});
+    p.images.forEach(key=>{const i=c.images[key];const figure=element('figure');const image=element('img');image.src=i.url;image.alt=i.alt;image.loading='lazy';image.width=900;image.height=600;const caption=element('figcaption',(i.generic ? c.copy.photoLabel : c.copy.companyPhotoLabel)+' · ');const credit=element(i.source?'a':'span',i.credit);if(i.source){credit.href=i.source;credit.target='_blank';credit.rel='noopener noreferrer';}caption.append(credit);figure.append(image,caption);gallery.append(figure);});
     content.append(gallery,element('p',p.description),element('p',c.copy.projectPending,'small-note'));
     const link=element('a',c.copy.quote+' ↗','button primary');link.href='contact.html';link.style.marginTop='24px';content.append(link);
     dialog.showModal();document.body.classList.add('modal-open');

@@ -33,3 +33,6 @@ Stock photographs are representative and are not claimed as photographs of named
 Home: index.html; About and team: about.html; Services: services.html; Projects: projects.html; Clients & Credentials: credentials.html; Contact: contact.html.
 
 Each page has unique SEO metadata and GeneralContractor structured data, along with address and phone in header/footer. robots.txt and sitemap.xml are included. Actual company registrations, client approvals, project scope and certifications must be confirmed before replacing placeholders.
+
+## Company project photos (September 2026)
+Five supplied photos are hosted locally as project-*.jpg/webp/jpeg. The roads gallery contains both carpeting photos; the sports complex, LDA office and sewerage galleries use the corresponding supplied image. Jubilee Heights is in Jubilee Town, Lahore. Photo badges and captions distinguish company photos from remaining representative stock.
