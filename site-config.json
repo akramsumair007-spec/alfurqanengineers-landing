@@ -151,7 +151,7 @@
     "legendExternal": "Outsourced / External Support",
     "processHeading": "A practical route to delivery.",
     "credentialsHeading": "Client reference area",
-    "credentialNote": "Client logos and reference permissions will be added after approval. Names below are placeholders, not an endorsement.",
+    "credentialNote": "Government departments and public-sector organizations.",
     "registrationsHeading": "PEC registration & license",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
@@ -376,19 +376,40 @@
   ],
   "clients": [
     {
-      "name": "LDA",
+      "name": "LDA Lahore",
       "description": "Lahore Development Authority",
-      "placeholder": true
+      "logo": "client-lda.png",
+      "source": "https://lda.gop.pk/"
     },
     {
-      "name": "WASA",
+      "name": "WASA Lahore",
       "description": "Water & Sanitation Agency",
-      "placeholder": true
+      "logo": "client-wasa.png",
+      "source": "https://wasa.punjab.gov.pk/"
     },
     {
-      "name": "Private clients",
-      "description": "Developers & property owners",
-      "placeholder": true
+      "name": "PHA Lahore",
+      "description": "Parks & Horticulture Authority Lahore",
+      "logo": "client-pha.png",
+      "source": "https://pha.gop.pk/"
+    },
+    {
+      "name": "Government of Punjab",
+      "description": "Punjab, Pakistan",
+      "logo": "client-punjab.png",
+      "source": "https://www.punjab.gov.pk/"
+    },
+    {
+      "name": "NHA",
+      "description": "National Highway Authority",
+      "logo": "client-nha.png",
+      "source": "https://nha.gov.pk/"
+    },
+    {
+      "name": "Communication & Works Department",
+      "description": "Government of Punjab, Pakistan",
+      "logo": "client-cnw.png",
+      "source": "https://cnw.punjab.gov.pk/"
     }
   ],
   "credentials": [
@@ -492,7 +513,7 @@
   },
   "images": {
     "construction": {
-      "url": "https://images.pexels.com/photos/13996838/pexels-photo-13996838.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "url": "hero-crane-blurred.jpg",
       "alt": "High-rise building under construction with a tower crane; representative stock photograph",
       "source": "https://www.pexels.com/photo/construction-crane-over-building-in-construction-13996838/",
       "credit": "Harshal / Pexels",

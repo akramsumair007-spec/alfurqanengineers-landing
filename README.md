@@ -38,3 +38,6 @@ Each page has unique SEO metadata and GeneralContractor structured data, along w
 Five supplied photos are hosted locally as project-*.jpg/webp/jpeg. The roads gallery contains both carpeting photos; the sports complex, LDA office and sewerage galleries use the corresponding supplied image. Jubilee Heights is in Jubilee Town, Lahore. Photo badges and captions distinguish company photos from remaining representative stock.
 
 Latest update: Jubilee Heights uses the company-supplied architectural rendering. Confirmed homepage figures: 1056+ projects and 7+ government departments. Email is alfurqaneng@yahoo.com; mailto enquiries now target this address. The crane image no longer has a logo overlay.
+
+Client logo sources: LDA and Punjab emblem via Wikimedia Commons; WASA Lahore and PHA Lahore via Seeklogo; NHA via Wikipedia; C&W via cnw.punjab.gov.pk/system/files/cwd_lgo.png. Official organization links are recorded in site-config.json.
+Hero edit: built-in imagegen; prompt: Blur only the small VISION sign on the crane, preserving the photograph. Output: hero-crane-blurred.jpg.
