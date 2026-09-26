@@ -10,7 +10,7 @@
     "phoneHref": "tel:+924237576169",
     "email": "alfurqaneng@yahoo.com",
     "emailIsPlaceholder": false,
-    "whatsapp": "",
+    "whatsapp": "923017144131",
     "hours": "08:30–17:30",
     "address": "Khawaja Arcade, Suite No 17, 1st Floor, Wahdat Rd, Mauza Ichra, Muslim Town, Lahore, Punjab, Rehmanpura Colony, 54700, Pakistan",
     "streetAddress": "Suite No 17, 1st Floor, Khawaja Arcade, Wahdat Rd, Mauza Ichra, Muslim Town, Rehmanpura Colony",
@@ -20,7 +20,9 @@
     "emblem": "emblem.svg",
     "additionalEmails": [
       "info@alfurqanengineers.com"
-    ]
+    ],
+    "whatsappDisplay": "+92 301 7144131",
+    "whatsappRole": "Human Resource Manager"
   },
   "palette": {
     "primary": "#495FB1",
@@ -158,7 +160,6 @@
     "registrationsHeading": "PEC registration & license",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
-    "contactPlaceholderNote": "Tell us about your project or send a general enquiry. Your details will be sent to our office through EmailJS and Zoho Mail so we can respond.",
     "formButton": "Submit",
     "formLabels": {
       "name": "Your name",
