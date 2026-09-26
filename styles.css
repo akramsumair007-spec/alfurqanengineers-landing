@@ -67,3 +67,5 @@ html{scroll-padding-top:142px}
  .mobile-logo,.mobile-brand{display:none}
  html{scroll-padding-top:104px}
 }
+
+.form-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}#enquiry-form button:disabled{opacity:.65;cursor:wait}#form-status:focus{outline:2px solid var(--accent);outline-offset:5px}

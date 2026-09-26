@@ -1,4 +1,4 @@
-/* Small progressive enhancements. No tracking, external libraries or form backend. */
+/* Small progressive enhancements. Contact delivery uses the configured EmailJS service; no mailbox secrets belong here. */
 (() => {
   'use strict';
   const c = window.SITE;
@@ -34,20 +34,41 @@
   const form=document.querySelector('#enquiry-form');
   if(form){
     const service=new URLSearchParams(location.search).get('service');if(c.services.some(s=>s.id===service))form.elements.service.value=service;
-    form.addEventListener('submit',e=>{
-      e.preventDefault();if(!form.reportValidity())return;
-      const f=new FormData(form);const selected=c.services.find(s=>s.id===f.get('service'));
-      const body=`Project enquiry — ${c.company.name}\n\nName: ${f.get('name')}\nPhone: ${f.get('phone')}\nEmail: ${f.get('email')}\nService: ${selected?.name || f.get('service')}\n\nProject details:\n${f.get('message')}`;
-      const uri=`mailto:${encodeURIComponent(c.company.email)}?subject=${encodeURIComponent('Project enquiry — '+(selected?.name||'Construction'))}&body=${encodeURIComponent(body)}`;
-      document.querySelector('#draft').value=body;
-      document.querySelector('#email-draft').href=uri;
-      const status=document.querySelector('#form-status');status.textContent=c.company.emailIsPlaceholder?c.copy.draftReady:c.copy.draftReadyLive;
-      document.querySelector('#form-result').hidden=false;status.setAttribute('tabindex','-1');status.focus();
-      // The user explicitly opens their email client and sends; nothing is submitted automatically.
-    });
-    document.querySelector('#copy-enquiry').addEventListener('click',async()=>{
-      const draft=document.querySelector('#draft');const status=document.querySelector('#form-status');
-      try{await navigator.clipboard.writeText(draft.value);status.textContent=c.copy.copySuccess;}catch{draft.focus();draft.select();status.textContent=c.copy.copyFailure;}
+    let sending=false;
+    const status=document.querySelector('#form-status');
+    const submit=form.querySelector('[type="submit"]');
+    function showStatus(message){
+      document.querySelector('#form-result').hidden=false;
+      status.textContent=message;
+      status.focus();
+    }
+    form.addEventListener('submit',async e=>{
+      e.preventDefault();
+      if(sending || !form.reportValidity())return;
+      const delivery=c.contactDelivery;
+      if(!delivery?.serviceId || !delivery?.templateId || !delivery?.publicKey){
+        showStatus('Online submission is temporarily unavailable. Please email info@alfurqanengineers.com or call our office.');return;
+      }
+      const f=new FormData(form);
+      if(f.get('website'))return;
+      const selected=c.services.find(s=>s.id===f.get('service'));
+      const params={name:String(f.get('name')).trim(),phone:String(f.get('phone')).trim(),reply_to:String(f.get('email')).trim(),service:selected?.name || String(f.get('service')),message:String(f.get('message')).trim()};
+      if(!params.name || !params.message){showStatus('Please enter your name and project details.');return;}
+      sending=true;submit.disabled=true;submit.textContent='Sending…';form.setAttribute('aria-busy','true');
+      showStatus('Sending your enquiry…');
+      const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),30000);
+      try{
+        const response=await fetch('https://api.emailjs.com/api/v1.0/email/send',{
+          method:'POST',headers:{'Content-Type':'application/json'},signal:controller.signal,
+          body:JSON.stringify({service_id:delivery.serviceId,template_id:delivery.templateId,user_id:delivery.publicKey,template_params:params})
+        });
+        if(!response.ok)throw new Error('Delivery not accepted');
+        form.reset();showStatus('Thank you. Your enquiry has been submitted. Our team will get back to you.');
+      }catch(error){
+        showStatus(error.name==='AbortError' ? 'We could not confirm delivery. Your details are still here. Please contact our office before retrying to avoid a duplicate enquiry.' : 'Your enquiry could not be submitted. Your details are still here. Please try again or email info@alfurqanengineers.com.');
+      }finally{
+        clearTimeout(timeout);sending=false;submit.disabled=false;submit.textContent='Submit';form.removeAttribute('aria-busy');
+      }
     });
   }
   if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){

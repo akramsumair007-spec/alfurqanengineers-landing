@@ -110,7 +110,7 @@
       "eyebrow": "Let’s talk about your project",
       "heading": "A strong project starts\nwith a conversation.",
       "intro": "Tell us what you are planning. We’ll help you take the next step.",
-      "body": "For an immediate enquiry, call our Lahore office. You can also prepare an email enquiry using the form below."
+      "body": "For an immediate enquiry, call our Lahore office. You can also send your enquiry directly using the form below."
     }
   },
   "stats": [
@@ -158,9 +158,8 @@
     "registrationsHeading": "PEC registration & license",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
-    "contactPlaceholderNote": "Email info@alfurqanengineers.com or alfurqaneng@yahoo.com, or call our Lahore office. This form prepares an email draft; review and send it in your email app. It does not send or store your information automatically.",
-    "formButton": "Prepare email enquiry",
-    "copyButton": "Copy enquiry",
+    "contactPlaceholderNote": "Tell us about your project or send a general enquiry. Your details will be sent to our office through EmailJS and Zoho Mail so we can respond.",
+    "formButton": "Submit",
     "formLabels": {
       "name": "Your name",
       "phone": "Phone number",
@@ -170,10 +169,6 @@
       "select": "Select a service",
       "hint": "Location, type of work, approximate scope and intended timeline"
     },
-    "draftReady": "Your enquiry draft is ready. Choose “Open email app” to continue; no message has been sent. The recipient is currently a placeholder — use the office phone for a live enquiry.",
-    "draftReadyLive": "Your email draft is ready for alfurqaneng@yahoo.com. Choose “Open email app”, review the draft and send when ready. No message has been sent automatically.",
-    "copySuccess": "Enquiry copied. You can paste it into your email app.",
-    "copyFailure": "Copy is unavailable in this browser. Select and copy the draft text below.",
     "directions": "Get Directions",
     "footerNote": "30+ Years of Experience · Government Contractors",
     "footerLegal": "All rights reserved.",
@@ -618,5 +613,10 @@
       "generic": false,
       "label": "Project rendering"
     }
+  },
+  "contactDelivery": {
+    "serviceId": "service_1gz6cz6",
+    "templateId": "template_uh5datt",
+    "publicKey": "YQ6eXcjSYFYHM3crG"
   }
 }
