@@ -21,7 +21,7 @@
   document.querySelectorAll('[data-project]').forEach(button => button.addEventListener('click', () => {
     const p=c.projects.find(p=>p.id===button.dataset.project);if(!p || !dialog)return;
     opener=button;const content=document.querySelector('#dialog-content');content.replaceChildren();
-    content.append(element('span',p.category,'category'));const title=element('h2',p.title);title.id='dialog-title';content.append(title,element('p',p.location));
+    content.append(element('span',p.category,'category'));const title=element('h2',p.title);title.id='dialog-title';content.append(title);if(p.location)content.append(element('p',p.location));
     const gallery=element('div','','dialog-gallery');
     p.images.forEach(key=>{const i=c.images[key];const figure=element('figure');const image=element('img');image.src=i.url;image.alt=i.alt;image.loading='lazy';image.width=900;image.height=600;const caption=element('figcaption',(i.generic ? c.copy.photoLabel : (i.label || c.copy.companyPhotoLabel))+' · ');const credit=element(i.source?'a':'span',i.credit);if(i.source){credit.href=i.source;credit.target='_blank';credit.rel='noopener noreferrer';}caption.append(credit);figure.append(image,caption);gallery.append(figure);});
     content.append(gallery,element('p',p.description),element('p',c.copy.projectPending,'small-note'));

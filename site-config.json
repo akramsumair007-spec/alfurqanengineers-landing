@@ -91,7 +91,7 @@
       "eyebrow": "Our project portfolio",
       "heading": "Work that serves\npeople and places.",
       "intro": "Buildings, public facilities and the infrastructure that connects them.",
-      "body": "Explore our buildings, public facilities and infrastructure projects. View company-supplied site photographs in the project galleries; representative photographs are clearly marked where project images are not yet available."
+      "body": "Explore our buildings, public facilities and infrastructure projects."
     },
     "contact": {
       "title": "Contact & Request a Quote",
@@ -125,7 +125,6 @@
     "homeAboutHeading": "An established name.\nA hands-on approach.",
     "homeAboutBody": "For over 30 years, Al Furqan Engineer's has served government and private clients with a focus on quality work, clear planning and lasting value.",
     "homeProjectsHeading": "A cross-section of our work.",
-    "projectNote": "Company-supplied photographs are shown where available. Images marked “Representative photo” illustrate the type of work.",
     "projectPending": "Detailed project scope and completion dates will be added after company confirmation.",
     "ctaHeading": "Your next project.\nOur full attention.",
     "ctaBody": "Speak with our Lahore team about your construction, infrastructure or maintenance requirements.",
@@ -314,7 +313,7 @@
     {
       "id": "road-asphalt",
       "title": "Road & asphalt work",
-      "location": "[Site locations — to be confirmed]",
+      "location": "",
       "category": "Roads & Asphalt",
       "description": "Road construction, asphalt surfacing and repair work for dependable access.",
       "images": [
@@ -326,7 +325,7 @@
     {
       "id": "sewerage-pipeline",
       "title": "Sewerage pipeline work",
-      "location": "[Site locations — to be confirmed]",
+      "location": "",
       "category": "Sewerage",
       "description": "Pipeline and drainage infrastructure supporting essential services.",
       "images": [
