@@ -19,8 +19,9 @@ Layout/templates live in build.py; responsive styles in styles.css; navigation, 
 
 The contact form validates required fields and builds a mailto draft with a copy fallback. It does not send or store enquiries. The visitor must open their email app and send. A configured email app and real recipient are needed. Phone and directions links are live. No email mailbox is created by GitHub Pages.
 
-## Organization chart
-The organogram object in site-config.json controls both the desktop chart and mobile expandable tree. showNames can hide personal names while retaining roles. The top two managers are peers. Solid blue means in-house; dashed gold means outsourced.
+## Public company profile
+
+The detailed organization chart and PEC license section are omitted from the published site. Restore only upon company approval.
 
 ## Branding and images
 The supplied original logo is retained as logo-original.png. logo-clean.png is the transparent background-cleanup output; SVG files embed/crop that bitmap, rather than redraw the logo. Cleanup used imagegen edit mode with the supplied logo: remove the scanned paper background, preserve original emblem, wording, typography, colors and proportions; do not redesign. If a vector master becomes available, replace the logo assets.

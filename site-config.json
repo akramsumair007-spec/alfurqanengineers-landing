@@ -75,7 +75,7 @@
       "body": "Al Furqan Engineer's (Pvt) Ltd is led by Muhammad Khalid and Muhammad Akram, co-equal General Managers and shareholders. From the foundations of a building to the infrastructure of a city, we bring experience, care and accountability to every stage of construction."
     },
     "about": {
-      "title": "About Us & Our Team",
+      "title": "About Us",
       "description": "Al Furqan Engineer's (Pvt) Ltd is led by Muhammad Khalid and Muhammad Akram, co-equal General Managers and shareholders. Based in Lahore, Pakistan, with 30+ years of construction experience.",
       "eyebrow": "The company",
       "heading": "Three decades.\nOne lasting commitment.",
@@ -100,11 +100,11 @@
     },
     "credentials": {
       "title": "Clients & Credentials",
-      "description": "Al Furqan Engineer's (Pvt) Ltd — PEC Category C1, license 1406, valid until 30 June 2028. Government and private contractor in Lahore.",
+      "description": "Al Furqan Engineer's (Pvt) Ltd: government and private contracting in Lahore. Explore our client reference area and contact our office for project enquiries.",
       "eyebrow": "Confidence through clarity",
       "heading": "Accountability you\ncan build on.",
       "intro": "A professional approach to government departments, private developers and property owners.",
-      "body": "Our PEC license category and validity are listed below. For project enquiries and supporting documentation, please contact our Lahore office."
+      "body": "For project enquiries and supporting documentation, please contact our Lahore office."
     },
     "contact": {
       "title": "Contact & Request a Quote",
@@ -150,14 +150,9 @@
     "aboutProfileHeading": "Government Contractors.\nCommitted to quality.",
     "aboutProfileBody": "Our reputation is built on an experienced, practical approach: understand the brief, coordinate the work and pay attention to the details that determine the finished result. We aim to be a reliable partner to government departments, developers and property owners.",
     "valuesHeading": "Principles that guide the work.",
-    "teamHeading": "Clear responsibilities.\nOne coordinated team.",
-    "teamIntro": "Two co-equal general managers lead the company, supported by site operations and management functions. Specialist external support is engaged where required.",
-    "legendInternal": "In-house",
-    "legendExternal": "Outsourced / External Support",
     "processHeading": "A practical route to delivery.",
     "credentialsHeading": "Client reference area",
     "credentialNote": "Government departments and public-sector organizations.",
-    "registrationsHeading": "PEC registration & license",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
     "formButton": "Submit",
@@ -409,14 +404,6 @@
       "source": "https://cnw.punjab.gov.pk/"
     }
   ],
-  "credentials": [
-    {
-      "title": "Pakistan Engineering Council (PEC)",
-      "value": "PEC Category C1 · License No. 1406",
-      "detail": "Valid until 30 June 2028",
-      "status": "PEC license"
-    }
-  ],
   "process": [
     {
       "title": "Understand the brief",
@@ -431,83 +418,6 @@
       "text": "Bring teams, materials and site activities together with a focus on quality."
     }
   ],
-  "organogram": {
-    "leaders": [
-      {
-        "name": "Muhammad Khalid",
-        "role": "General Manager",
-        "note": "Equal Shareholder"
-      },
-      {
-        "name": "Muhammad Akram",
-        "role": "General Manager",
-        "note": "Equal Shareholder"
-      }
-    ],
-    "branches": [
-      {
-        "label": "Site Operations",
-        "children": [
-          {
-            "name": "Sumair Akram",
-            "role": "Construction Manager",
-            "note": "Project Planning & Controls",
-            "children": [
-              {
-                "role": "Site Engineer",
-                "children": [
-                  {
-                    "role": "Foreman",
-                    "children": [
-                      {
-                        "role": "Labor / Workforce"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "role": "External Support",
-                "note": "Outsourced",
-                "external": true,
-                "children": [
-                  {
-                    "role": "Surveyor",
-                    "external": true
-                  },
-                  {
-                    "role": "Quantity Surveyor (QS)",
-                    "external": true
-                  },
-                  {
-                    "role": "Site Inspector",
-                    "external": true
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "label": "Management & Business Functions",
-        "children": [
-          {
-            "role": "Business Development Manager"
-          },
-          {
-            "role": "Procurement Manager"
-          },
-          {
-            "role": "Finance Manager"
-          },
-          {
-            "role": "HR Manager"
-          }
-        ]
-      }
-    ]
-  },
   "images": {
     "construction": {
       "url": "hero-crane-blurred.jpg",
