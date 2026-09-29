@@ -3,8 +3,8 @@
     "name": "Al Furqan Engineer's (Pvt) Ltd",
     "shortName": "Al Furqan Engineer's",
     "tagline": "Government Contractors",
-    "experience": "30+ Years of Experience",
-    "established": "1993",
+    "experience": "20+ Years of Experience",
+    "established": "5 April 2006",
     "url": "https://alfurqanengineers.com",
     "phone": "+92 42 37576169",
     "phoneHref": "tel:+924237576169",
@@ -63,18 +63,18 @@
   "pages": {
     "home": {
       "title": "Government & Private Construction in Lahore",
-      "description": "Al Furqan Engineer's (Pvt) Ltd, Lahore: wholly owned and led by Mr Muhammad Khalid, Sole Owner and General Manager. Government and private construction with 30+ years of experience.",
+      "description": "Al Furqan Engineer's (Pvt) Ltd, Lahore: wholly owned and led by Mr Muhammad Khalid, Sole Owner and General Manager. Government and private construction with 20+ years of experience.",
       "eyebrow": "Lahore, Pakistan · Government Contractors",
       "heading": "Building trust.\nDelivering progress.",
-      "intro": "30+ Years of Trusted Government & Private Contracting",
+      "intro": "20+ Years of Trusted Government & Private Contracting",
       "body": "Al Furqan Engineer's (Pvt) Ltd, under the leadership of Mr. Muhammad Khalid, delivers reliable construction and engineering solutions with a strong focus on quality, experience, and accountability. From building foundations to major infrastructure projects, we bring care and professionalism to every stage of construction."
     },
     "about": {
       "title": "About Us",
-      "description": "Al Furqan Engineer's (Pvt) Ltd is wholly owned and led by Mr Muhammad Khalid, Sole Owner and General Manager. Based in Lahore, Pakistan, with 30+ years of construction experience.",
+      "description": "Al Furqan Engineer's (Pvt) Ltd is wholly owned and led by Mr Muhammad Khalid, Sole Owner and General Manager. Based in Lahore, Pakistan, with 20+ years of construction experience.",
       "eyebrow": "The company",
-      "heading": "Three decades.\nOne lasting commitment.",
-      "intro": "30+ Years of Experience. A practical understanding of what it takes to build well.",
+      "heading": "Two decades.\nOne lasting commitment.",
+      "intro": "20+ Years of Experience. A practical understanding of what it takes to build well.",
       "body": "Government contracting is at the heart of our work, alongside residential and commercial projects for private clients."
     },
     "services": {
@@ -104,7 +104,7 @@
   },
   "stats": [
     {
-      "value": "30+",
+      "value": "20+",
       "label": "Years of experience",
       "placeholder": false
     },
@@ -146,7 +146,7 @@
       "hint": "Location, type of work, approximate scope and intended timeline"
     },
     "directions": "Get Directions",
-    "footerNote": "30+ Years of Experience · Government Contractors",
+    "footerNote": "20+ Years of Experience · Government Contractors",
     "footerLegal": "All rights reserved.",
     "placeholder": "To be confirmed",
     "close": "Close project details",
