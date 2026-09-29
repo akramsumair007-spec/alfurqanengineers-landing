@@ -76,3 +76,5 @@
     document.querySelectorAll('.reveal').forEach(el=>{el.style.animationPlayState='paused';observer.observe(el);});
   }
 })();
+
+(() => { const video=document.querySelector('.hero-video'); const button=document.querySelector('.video-toggle'); if(!video||!button)return; const sync=()=>{button.textContent=video.paused?'Play video':'Pause video';button.setAttribute('aria-label',video.paused?'Play site video':'Pause site video');}; const preference=window.matchMedia('(prefers-reduced-motion: reduce)');if(preference.matches){video.autoplay=false;video.pause();} preference.addEventListener('change',event=>{if(event.matches)video.pause();});button.addEventListener('click',()=>{if(video.paused)video.play().catch(sync);else video.pause();});video.addEventListener('play',sync);video.addEventListener('pause',sync);sync();})();

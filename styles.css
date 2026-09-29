@@ -69,3 +69,5 @@ html{scroll-padding-top:142px}
 }
 
 .form-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}#enquiry-form button:disabled{opacity:.65;cursor:wait}#form-status:focus{outline:2px solid var(--accent);outline-offset:5px}
+
+.hero-photo>.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.video-toggle{position:absolute;right:20px;bottom:20px;z-index:3;border:1px solid #ffffffaa;background:#172d4ddd;color:#fff;border-radius:4px;padding:10px 14px;cursor:pointer;font:600 13px Arial,sans-serif}.video-toggle:focus-visible{outline:3px solid #dfb566;outline-offset:3px}
