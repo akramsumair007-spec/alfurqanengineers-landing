@@ -55,11 +55,6 @@
       "file": "projects.html"
     },
     {
-      "id": "credentials",
-      "label": "Clients & Credentials",
-      "file": "credentials.html"
-    },
-    {
       "id": "contact",
       "label": "Contact",
       "file": "contact.html"
@@ -72,7 +67,7 @@
       "eyebrow": "Lahore, Pakistan · Government Contractors",
       "heading": "Building trust.\nDelivering progress.",
       "intro": "30+ Years of Trusted Government & Private Contracting",
-      "body": "Al Furqan Engineer's (Pvt) Ltd is wholly owned and led by Mr Muhammad Khalid, Sole Owner and General Manager. From the foundations of a building to the infrastructure of a city, we bring experience, care and accountability to every stage of construction."
+      "body": "Al Furqan Engineer's (Pvt) Ltd, under the leadership of Mr. Muhammad Khalid, delivers reliable construction and engineering solutions with a strong focus on quality, experience, and accountability. From building foundations to major infrastructure projects, we bring care and professionalism to every stage of construction."
     },
     "about": {
       "title": "About Us",
@@ -80,7 +75,7 @@
       "eyebrow": "The company",
       "heading": "Three decades.\nOne lasting commitment.",
       "intro": "30+ Years of Experience. A practical understanding of what it takes to build well.",
-      "body": "Al Furqan Engineer's (Pvt) Ltd is wholly owned and led by Mr Muhammad Khalid, Sole Owner and General Manager. Al Furqan Engineer's (Pvt) Ltd is a Lahore-based construction and engineering contractor with over three decades of operation. Government contracting is at the heart of our work, alongside residential and commercial projects for private clients."
+      "body": "Government contracting is at the heart of our work, alongside residential and commercial projects for private clients."
     },
     "services": {
       "title": "Construction & Engineering Services",
@@ -97,14 +92,6 @@
       "heading": "Work that serves\npeople and places.",
       "intro": "Buildings, public facilities and the infrastructure that connects them.",
       "body": "Explore our buildings, public facilities and infrastructure projects. View company-supplied site photographs in the project galleries; representative photographs are clearly marked where project images are not yet available."
-    },
-    "credentials": {
-      "title": "Clients & Credentials",
-      "description": "Al Furqan Engineer's (Pvt) Ltd: government and private contracting in Lahore. Explore our client reference area and contact our office for project enquiries.",
-      "eyebrow": "Confidence through clarity",
-      "heading": "Accountability you\ncan build on.",
-      "intro": "A professional approach to government departments, private developers and property owners.",
-      "body": "For project enquiries and supporting documentation, please contact our Lahore office."
     },
     "contact": {
       "title": "Contact & Request a Quote",
@@ -124,11 +111,6 @@
     {
       "value": "1056+",
       "label": "Projects completed",
-      "placeholder": false
-    },
-    {
-      "value": "7+",
-      "label": "Government departments served",
       "placeholder": false
     }
   ],
@@ -151,8 +133,6 @@
     "aboutProfileBody": "Our reputation is built on an experienced, practical approach: understand the brief, coordinate the work and pay attention to the details that determine the finished result. We aim to be a reliable partner to government departments, developers and property owners.",
     "valuesHeading": "Principles that guide the work.",
     "processHeading": "A practical route to delivery.",
-    "credentialsHeading": "Client reference area",
-    "credentialNote": "Government departments and public-sector organizations.",
     "contactFormHeading": "Tell us about your project",
     "contactOfficeHeading": "Visit or call our Lahore office",
     "formButton": "Submit",
@@ -235,7 +215,7 @@
         "Residential and commercial developments",
         "Structural and finishing works"
       ],
-      "image": "building"
+      "image": "constructionUpdated"
     },
     {
       "id": "roads",
@@ -366,44 +346,6 @@
       "featured": false
     }
   ],
-  "clients": [
-    {
-      "name": "LDA Lahore",
-      "description": "Lahore Development Authority",
-      "logo": "client-lda.png",
-      "source": "https://lda.gop.pk/"
-    },
-    {
-      "name": "WASA Lahore",
-      "description": "Water & Sanitation Agency",
-      "logo": "client-wasa.png",
-      "source": "https://wasa.punjab.gov.pk/"
-    },
-    {
-      "name": "PHA Lahore",
-      "description": "Parks & Horticulture Authority Lahore",
-      "logo": "client-pha.png",
-      "source": "https://pha.gop.pk/"
-    },
-    {
-      "name": "Government of Punjab",
-      "description": "Punjab, Pakistan",
-      "logo": "client-punjab.png",
-      "source": "https://www.punjab.gov.pk/"
-    },
-    {
-      "name": "NHA",
-      "description": "National Highway Authority",
-      "logo": "client-nha.png",
-      "source": "https://nha.gov.pk/"
-    },
-    {
-      "name": "Communication & Works Department",
-      "description": "Government of Punjab, Pakistan",
-      "logo": "client-cnw.png",
-      "source": "https://cnw.punjab.gov.pk/"
-    }
-  ],
   "process": [
     {
       "title": "Understand the brief",
@@ -523,6 +465,10 @@
       "source": "",
       "generic": false,
       "label": "Project rendering"
+    },
+    "constructionUpdated": {
+      "url": "construction-building-20260929.png",
+      "alt": "Building exterior with blue glazing and stone facade"
     }
   },
   "contactDelivery": {
