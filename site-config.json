@@ -348,16 +348,24 @@
   ],
   "process": [
     {
-      "title": "Understand the brief",
-      "text": "Discuss your site, requirements, drawings and priorities."
+      "title": "Understand the Brief",
+      "icon": "brief",
+      "text": "Understand your requirements, site conditions, scope and priorities to establish clear project objectives."
     },
     {
       "title": "Planning & Controls",
-      "text": "Our dedicated planning and controls team develops the project schedule, coordinates resources and milestones, and tracks progress against the plan to identify delays early and keep delivery on course."
+      "icon": "milestones",
+      "text": "Develop the programme, coordinate resources and monitor progress to identify risks early and keep delivery on track."
     },
     {
-      "title": "Build with care",
-      "text": "Bring teams, materials and site activities together with a focus on quality."
+      "title": "Build with Care",
+      "icon": "build-quality",
+      "text": "Execute the work with coordinated site teams, quality checks and safe working practices."
+    },
+    {
+      "title": "Timely Delivery & Handover",
+      "icon": "handover",
+      "text": "Work towards agreed completion dates, complete final inspections and coordinate an orderly handover."
     }
   ],
   "images": {
