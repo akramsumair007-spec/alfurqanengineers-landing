@@ -267,7 +267,7 @@
         "Building repairs and refurbishment",
         "Ongoing facility upkeep"
       ],
-      "image": "maintenance"
+      "image": "maintenanceCourtyard"
     }
   ],
   "categories": [
@@ -469,6 +469,10 @@
     "constructionUpdated": {
       "url": "construction-building-20260929.png",
       "alt": "Building exterior with blue glazing and stone facade"
+    },
+    "maintenanceCourtyard": {
+      "url": "building-maintenance-courtyard.jpeg",
+      "alt": "Courtyard maintenance and finishing work, with scaffolding and workers beside decorative screens"
     }
   },
   "contactDelivery": {
