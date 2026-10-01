@@ -4,7 +4,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 C = json.loads((ROOT / 'site-config.json').read_text())
 B, T = C['company'], C['copy']
-def e(v): return html.escape(str(v), quote=True)
+# Attributes generated below use double quotes; keep apostrophes literal for search snippets.
+def e(v): return html.escape(str(v), quote=True).replace("&#x27;", "'")
 def email_links(): return '<br>'.join(f'<a href="mailto:{e(address)}">{e(address)}</a>' for address in [B['email'], *B.get('additionalEmails', [])])
 def lines(v): return e(v).replace('\n', '<br>')
 def icon(name):
